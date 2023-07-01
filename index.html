@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./Script.js" defer></script>
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" id="searchCity" placeholder="Enter city name" spellcheck="false">
+            <button onclick="checkWeather()"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="weather">
+            <h1 class="temp">00<sup>o</sup>c</h1>
+            <h2 class="city">city</h2>
+            <div class="details">
+                <div class="col">
+                    <div>
+                        <p class="humidity">00%</p>
+                    </div>
+                    <p>humidity</p>
+                </div>
+                <div class="col">
+                    <div>
+                        <p class="wind">00km/h</p>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
